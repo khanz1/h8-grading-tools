@@ -11,3 +11,8 @@ a simple tool to grade H8 assignments
 ### v1.0.2
 
 - add lc03 assignment
+
+### v1.1.0
+
+- change file name to be better
+- update algorithm to be more efficient

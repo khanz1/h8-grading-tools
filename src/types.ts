@@ -35,12 +35,11 @@ interface Answers {
 
 export interface Phase2Answers {
   collectionOfSet: SetCollection;
-  assignment: Assignment[];
+  assignments: Assignment[];
   includeRepeat: boolean;
 }
 
 export interface CloneRepository {
-  batchName: string;
-  students: string[];
-  assignment: Assignment | `${Assignment}-repeat`;
+  organization: SetCollection;
+  name: string;
 }
