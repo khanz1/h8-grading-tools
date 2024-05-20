@@ -1,0 +1,37 @@
+{
+  "name": "h8-grading-tools",
+  "version": "1.0.2",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "dev": "npm run build && node dist/index.js"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.20"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "khanz1",
+  "license": "MIT",
+  "description": "A tools to clone hacktiv8 classroom repository",
+  "homepage": "https://github.com/khanz1/h8-grading-tools",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khanz1/h8-grading-tools.git"
+  },
+  "contributors": {
+    "name": "khanz1",
+    "email": "assistance.xavier@gmail.com"
+  },
+  "bin": {
+    "h8-grading": "./dist/index.js",
+    "h8-grading-tools": "./dist/index.js"
+  }
+}
